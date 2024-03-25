@@ -10,4 +10,11 @@ export class HealthController {
     this.logger.log("Health endpoint called!");
     return { status: "ok" };
   }
+
+  @Get("/ping")
+  @HttpCode(200)
+  ping() {
+    this.logger.log("Ping endpoint called!");
+    return { status: "pong" };
+  }
 }
