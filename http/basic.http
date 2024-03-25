@@ -1,11 +1,8 @@
-# curl --request GET
-#  --url http://localhost:3000/health
+### HEALTH
 GET http://localhost:3000/health
 
-###
+### PING
+GET http://localhost:3000/v1/health/ping
 
-GET http://localhost:3000/health/ping
-
-###
-
+### USERS
 GET http://localhost:3000/users
