@@ -1,8 +1,8 @@
 {
-  "name": "nestjs-service-template",
+  "name": "fun-api",
   "version": "1.0.0",
-  "description": "Template for new nestjs services",
-  "author": "alberthernandezdev@gmail.com",
+  "description": "Template for new nestjs services and a fun api",
+  "author": "levitoon@gmail.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/AlbertHernandez/nestjs-service-template/issues"
