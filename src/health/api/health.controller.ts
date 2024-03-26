@@ -7,6 +7,7 @@ export class HealthController {
   @HttpCode(200)
   ping() {
     this.logger.log("Ping endpoint called!");
+    this.logger.log("Soemthing");
     return { status: "pong" };
   }
 

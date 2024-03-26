@@ -1,5 +1,5 @@
 ### HEALTH
-GET http://localhost:3000/health
+GET http://localhost:3000/v1/health
 
 ### PING
 GET http://localhost:3000/v1/health/ping
